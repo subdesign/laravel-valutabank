@@ -17,9 +17,10 @@
         "anlutro/curl":"dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "Subdesign\\Valutabank": "src/"
+        "psr-4": {
+            "Subdesign\\Valutabank\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
