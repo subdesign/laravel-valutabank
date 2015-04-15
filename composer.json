@@ -1,0 +1,25 @@
+{
+    "name": "subdesign/valutabank",
+    "description": "valutabank.hu data parser package",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Barna Szalai",
+            "email": "szalai.b@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["laravel", "laravel 5", "currency"],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "anlutro/curl"
+    },
+    "autoload": {
+        "psr-0": {
+            "Subdesign\\Valutabank": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
