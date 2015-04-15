@@ -1,11 +1,11 @@
 # Valutabank.hu parser package for Laravel 5
 With this package you can get the actual HUF (Hungarian Forint) value of different currencies.
 ## Installation
-Intall with the following Composer command
+Install with the following Composer command
 ```
 $ composer require subdesign/laravel-valutabank
 ```
-Add the following line in the `app.php` into the _service provider_ array
+Add the following line in the `app/config/app.php` file into the _service provider_ array
 ```
 'Subdesign\Valutabank\Provider\ValutabankServiceProvider',
 ```
@@ -47,7 +47,7 @@ $result = \Valutabank::get();
 ```
 ## Dependency
 The package uses `anlutro/curl` for optionally replace `file_get_contents()` in the code, if the latter is disabled in your server for some reason.
-## Example data:
+## Example data
 Getting the USD - HUF exchange rate as `array`
 ```
 array(2) {
@@ -76,7 +76,7 @@ array(2) {
 ```
 ## Notes
 The source code is PSR-1 and PSR-2 compilant.  
-Please show valutabank.hu's link somewhere in your view code below the rendered data, for credits.
+Please show the link of valutabank.hu somewhere in your view code below the rendered data, for credits.
 ## Copyright
 &copy; 2015 Barna Szalai 
 ## License
@@ -84,5 +84,5 @@ Please show valutabank.hu's link somewhere in your view code below the rendered 
 ## Contact
 twitter: @devartpro  
 email: <szalai.b@gmail.com>  
-irc: @BarnaSzalai at #laravel.hu (freenode)  
+irc: @BarnaSzalai at #laravel.hu/#laravel (freenode)  
 slackchat: [https://laravelbp.slack.com](https://laravelbp.slack.com)
