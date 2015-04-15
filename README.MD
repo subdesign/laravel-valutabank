@@ -46,7 +46,7 @@ or you can add a backslash to the facade
 $result = \Valutabank::get();
 ```
 ## Dependency
-The package uses `anlutro/curl` for optionally replace `file_get_contents()` in the code, if the latter is disabled in your server for some reason.
+The package uses `anlutro/php-curl` for optionally replace `file_get_contents()` in the code, if the latter is disabled in your server for some reason.
 ## Example data
 Getting the USD - HUF exchange rate as `array`
 ```
