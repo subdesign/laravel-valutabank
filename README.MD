@@ -3,7 +3,7 @@ With this package you can get the actual HUF (Hungarian Forint) value of differe
 ## Installation
 Install with the following Composer command
 ```
-$ composer require subdesign/laravel-valutabank
+$ composer require subdesign/valutabank:dev-master
 ```
 Add the following line in the `app/config/app.php` file into the _service provider_ array
 ```
